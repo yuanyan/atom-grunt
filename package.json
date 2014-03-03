@@ -1,0 +1,14 @@
+{
+  "name": "grunt",
+  "main": "./lib/grunt",
+  "version": "0.0.1",
+  "description": "Grunt command line driver",
+  "activationEvents": ["grunt:run"],
+  "repository": "https://github.com/yuanyan/atom-grunt",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
