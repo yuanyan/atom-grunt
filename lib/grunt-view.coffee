@@ -8,8 +8,8 @@ class GruntView extends View
       @div 'The Grunt package is Alive!'
 
   initialize: (serializeState) ->
+    atom.workspaceView.on 'click', '.grunt > .close-icon', => @toggle()
     atom.workspaceView.command 'grunt:run', => @toggle()
-    atom.workspaceView.find('.grunt > .close-icon').click => @toggle()
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
