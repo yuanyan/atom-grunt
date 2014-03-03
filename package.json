@@ -2,6 +2,7 @@
   "name": "grunt",
   "main": "./lib/grunt",
   "version": "0.0.1",
+  "private": true,
   "description": "Grunt command line driver",
   "activationEvents": ["grunt:run"],
   "repository": "https://github.com/yuanyan/atom-grunt",
